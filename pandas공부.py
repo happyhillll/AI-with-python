@@ -69,4 +69,4 @@ print(df.tail(3))
 print(df['학번'])
 
 #외부 데이터 읽기
-df=pd.read_csv('')|
+df=pd.read_csv('')
