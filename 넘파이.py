@@ -32,3 +32,11 @@ print(mat)
 
 #1행 0열의 원소
 print(mat[1,0])
+
+
+import tensorflow as tf
+
+print(tf.__version__)
+a=tf.random.uniform([2,3],0,1)
+print(a)
+print(type(a))
